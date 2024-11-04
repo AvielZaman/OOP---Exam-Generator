@@ -21,5 +21,5 @@ This project was developed as part of an Object-Oriented Programming (OOP) cours
    - Supports both multiple-choice and open-ended question formats.
 
 4. **Test Creation**
-   - **Manual Test Creation**: Define the number of questions for the test, select questions from the repository, and choose which answers to include. The system generates a text file with the selected questions and answers, always including the options "None of the above" and "More than one of the above." A corresponding answer key is also created.
-   - **Automated Test Creation**: The system randomly selects questions and answers from the repository, ensuring a balanced mix of correct and incorrect responses. Open-ended questions can also be included.
+   - **Manual Test Creation**: Define the number of questions for the test and select questions from the stock (with at least 3 answers in it). The system generates a text file with the selected questions, always including the options "There is no correct answer" and "More than one of the above." A corresponding answer key is also created.
+   - **Automated Test Creation**: The system randomly selects questions from the stock. Open-ended questions can also be included.
